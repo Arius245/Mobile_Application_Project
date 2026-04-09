@@ -43,7 +43,7 @@ const WelcomeScreen = ({ navigation }) => {
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.welcomeContainer}>
-      <Text style={styles.titleText}>Arius's App:</Text>
+      <Text style={styles.titleText}>SpotLight</Text>
       <Text style={styles.headerText}>{accountName}</Text>
       {
         !isLoggedIn ? (
